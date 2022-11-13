@@ -48,4 +48,3 @@ class Saludo extends React.Component {
 * Debe extender React.Component
 * Debe tener un método render() para retornar  un elemento de JSX
 * Puede recibir valores si es necesario
-
