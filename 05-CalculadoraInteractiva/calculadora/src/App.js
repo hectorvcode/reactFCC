@@ -13,8 +13,8 @@ function App() {
 
   const agregarInput = val => {
     if(
-        operators.includes(val) && input === '' ||
-        operators.includes(val) && operators.includes(input.slice(-1))
+        (operators.includes(val) && input === '') ||
+        (operators.includes(val) && operators.includes(input.slice(-1)))
       ){
         return;
     }
