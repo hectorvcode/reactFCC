@@ -1,4 +1,5 @@
 import './App.css';
+import ListaTareas from './componentes/ListaTareas';
 import freeCodeCampLogo from './imagenes/freecodecamp-logo.png';
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
       </div>
       <div className='tareas-lista-principal'>
         <h1>Mis Tareas</h1>
-        
+        <ListaTareas />
       </div>
     </div>
   );
